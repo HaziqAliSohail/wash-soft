@@ -1,0 +1,79 @@
+.portfolio-section {
+    padding: 50px 0 100px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.portfolio-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #00487C;
+}
+
+.portfolio-section .container {
+    max-width: 1200px;  /* Control the width of the carousel */
+    margin: 0 auto;
+    padding: 0 20px; /* Add some padding on the sides */
+}
+
+.portfolio-item {
+    padding: 10px;
+    position: relative; /* To ensure z-index works for shadow */
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 3px solid #e0e0e0; /* Border around the images */
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05); /* Slight hover effect */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Slick Carousel Overrides */
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    padding: auto 20px; /* Space between the carousel items */
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-prev, .slick-next {
+    z-index: 2;
+    color: #00487C;
+}
+
+/* Custom Borders for Carousel */
+.carousel-border {
+    border-radius: 20px;  /* Rounded corners */
+    border: 3px solid #00487C;  /* Blue border */
+    padding: 10px;  /* Padding inside the border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Shadow for depth */
+}
+
+.carousel-border:hover {
+    border-color: #FFC300; /* Hover effect on border */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Hover shadow */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .portfolio-section h2 {
+        font-size: 28px;
+    }
+
+    .slick-slide {
+        display: block;
+    }
+
+    .portfolio-section .container {
+        max-width: 100%;  /* Full width for smaller screens */
+    }
+}

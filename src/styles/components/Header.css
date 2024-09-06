@@ -1,0 +1,123 @@
+
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #004a80; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+.logo img {
+    margin-top: 10px;
+    max-height: 50px;
+    height: auto;
+}
+
+.navbar {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px; 
+}
+
+
+.navbar-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: lighter; 
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-item a:hover {
+    color: #FFD700; 
+}
+
+
+.menu-toggle {
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #004a80;
+    }
+
+    .navbar.open {
+        display: flex;
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .menu-toggle.open .hamburger:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-toggle.open .hamburger:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.open .hamburger:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+    .navbar {
+        flex-grow: 1;
+        text-align: right;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbar-item {
+        padding: 0 5px;
+    }
+}
