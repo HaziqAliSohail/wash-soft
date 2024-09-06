@@ -46,3 +46,31 @@
     font-size: 16px;
     line-height: 1.6;
 }
+
+@media (max-width: 1200px) {
+    .service-cards{
+        padding: 0px 10px;
+    }
+
+    .service-cards .card {
+        width: 45%;
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-cards{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    .service-cards .card {
+        width: 30%;
+        margin: 10px 0;
+        padding: 0 30px 30px 30px;
+    }
+
+    .services h2 {
+        font-size: 28px;
+    }
+}

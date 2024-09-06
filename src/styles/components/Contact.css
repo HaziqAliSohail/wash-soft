@@ -44,3 +44,12 @@
 .contact form button:hover {
     background-color: #003665;
 }
+
+@media (max-width: 768px) {
+    .contact .container form{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+
+}

@@ -43,3 +43,21 @@
     font-weight: bold;
     margin: 0;
 }
+
+
+@media (max-width: 768px) {
+    .testimonials-cards{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    .testimonials-cards .card {
+        width: 30%;
+        margin: 10px 0;
+        padding: 30px;
+    }
+
+    .testimonials h2 {
+        font-size: 28px;
+    }
+}
