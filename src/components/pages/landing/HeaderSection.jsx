@@ -12,7 +12,7 @@ const Header = () => {
         <header className="header">
             <div className="header-container">
                 <div className="logo">
-                    <img src="/logo.png" alt="MJ Rapid Wash" />
+                    <img src="/logo-large.png" alt="MJ Rapid Wash" />
                 </div>
                 <nav className={isOpen ? "navbar open" : "navbar"}>
                     <ul className="navbar-list">

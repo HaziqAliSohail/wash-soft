@@ -6,10 +6,10 @@ function Hero() {
         <section id="home" className="hero">
             <div className="video-background">
                 <video autoPlay loop muted playsInline className="video1">
-                    <source src="/video1.mp4" type="video/mp4" />
+                    <source src="/video3.mp4" type="video/mp4" />
                 </video>
                 <video autoPlay loop muted playsInline className="video2">
-                    <source src="/video2.mp4" type="video/mp4" />
+                    <source src="/video1.mp4" type="video/mp4" />
                 </video>
             </div>
             <div className="container">

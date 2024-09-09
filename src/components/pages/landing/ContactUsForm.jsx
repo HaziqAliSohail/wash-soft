@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import '../../../styles/components/Contact.css';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
+import {API_KEY, EMAIL_TEMPLATE_ID, SERVICE_ID} from '../../../config';
 
 function Contact() {
     const name = useRef('');
@@ -12,14 +13,14 @@ function Contact() {
         const template = {
             from_name: name.current,
             from_email: email.current,
-            from_message: message.current,
+            message: message.current,
         }
 
         await emailjs.send(
-            'service_9z7qkzo',
-            'template_3qkm5os',
+            SERVICE_ID,
+            EMAIL_TEMPLATE_ID,
             template,
-            'mDuPD8LGF2iLq84Tc'
+            API_KEY
         ).then((res) => {
             console.log('email sent successfully!');
         }).catch((err) => {
