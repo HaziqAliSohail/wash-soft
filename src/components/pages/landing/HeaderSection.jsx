@@ -6,7 +6,6 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [navbarColor, setNavbarColor] = useState(false);
 
-  // Add scroll event listener on component mount and cleanup on unmount
   useEffect(() => {
     $(document).on('scroll', function() {
         if ($('#services').position().top){

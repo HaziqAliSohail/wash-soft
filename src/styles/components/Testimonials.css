@@ -44,6 +44,11 @@
     margin: 0;
 }
 
+@media (max-width: 1200) {
+    .testimonials-cards {
+        padding: 0px 10px;
+    }
+}
 
 @media (max-width: 768px) {
     .testimonials-cards{
@@ -52,12 +57,21 @@
         gap: 15px;
     }
     .testimonials-cards .card {
-        width: 30%;
+        width: 31%;
         margin: 10px 0;
-        padding: 30px;
+        padding: 25px;
     }
 
     .testimonials h2 {
-        font-size: 28px;
+        font-size: 24px;
+        font-weight: bolder;
+    }
+
+    .testimonials-cards .card p {
+        font-size: 12px;
+    }
+
+    .testimonials-cards .card h4 {
+        font-size: 13.5px;
     }
 }
