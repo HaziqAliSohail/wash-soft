@@ -32,8 +32,8 @@
 
 .contact form button {
     padding: 15px;
-    background-color: #00487C;
-    color: white;
+    background-color: rgba(26, 46, 69, 0.8);
+    color: #f9f9f9;
     border: none;
     border-radius: 5px;
     font-size: 18px;
@@ -42,7 +42,7 @@
 }
 
 .contact form button:hover {
-    background-color: #003665;
+    background-color:  rgba(26, 46, 69, 1);
 }
 
 @media (max-width: 768px) {

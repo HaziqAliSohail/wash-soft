@@ -1,6 +1,6 @@
 .testimonials {
     padding: 50px 0;
-    background-color: #00487C;
+    background-color: rgba(19, 147, 192, 0.8);
     color: white;
     text-align: center;
 }
@@ -22,7 +22,7 @@
 }
 
 .testimonials-cards .card {
-    background-color: #006BA1;
+    background-color:  rgba(26, 46, 69, 0.8);
     border: none;
     padding: 20px;
     margin: 10px;

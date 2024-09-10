@@ -12,7 +12,7 @@
 .services h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #00487C;
+    color: #1393C0;
 }
 
 .service-cards {
@@ -23,7 +23,7 @@
 }
 
 .service-cards .card {
-    background-color: white;
+    background: linear-gradient(to bottom, rgba(19, 147, 192, 0.8) , rgba(26, 46, 69, 0.9));
     border: 1px solid #ddd;
     padding: 20px 13px;
     margin: 10px;
@@ -40,11 +40,13 @@
 .service-cards .card h3 {
     font-size: 24px;
     margin-bottom: 15px;
+    color: #f9f9f9;
 }
 
 .service-cards .card p {
     font-size: 16px;
     line-height: 1.6;
+    color: #f9f9f9;
 }
 
 @media (max-width: 1200px) {

@@ -1,7 +1,7 @@
 .footer {
-    background-color: #004a80; /* Same dark blue as the header */
+    background-color: rgba(19, 147, 192, 0.8); /* Same dark blue as the header */
     padding: 20px 0;
-    color: #ffffff;
+    color: #f9f9f9;
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ footer ul li {
 }
 
 footer ul li a {
-    color: white;
+    color: #f9f9f9;
     text-decoration: none;
     font-size: 16px;
 }
@@ -43,12 +43,13 @@ footer ul li a:hover {
 .social-media {
     display: flex;
     gap: 15px; /* Space between social media icons */
+    padding: 10px 0px;
 }
 
 .social-media a {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     transition: transform 0.3s ease;
 }
 

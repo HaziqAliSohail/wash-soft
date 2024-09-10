@@ -7,7 +7,7 @@
 .portfolio-section h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #00487C;
+    color: #1393C0;
 }
 
 .portfolio-section .container {
@@ -16,9 +16,8 @@
     padding: 0 20px; /* Add some padding on the sides */
 }
 
-.portfolio-item {
-    padding: 10px;
-    position: relative; /* To ensure z-index works for shadow */
+.portfolio-item {    
+    padding: 8px;
 }
 
 .portfolio-item img {
@@ -47,19 +46,19 @@
 
 .slick-prev, .slick-next {
     z-index: 2;
-    color: #00487C;
+    color: #1393C0;
 }
 
 /* Custom Borders for Carousel */
 .carousel-border {
-    border-radius: 20px;  /* Rounded corners */
-    border: 3px solid #00487C;  /* Blue border */
-    padding: 10px;  /* Padding inside the border */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Shadow for depth */
+    border-radius: 20px;  
+    border: 2px solid #1393C0; 
+    padding: 5px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
 }
 
 .carousel-border:hover {
-    border-color: #FFC300; /* Hover effect on border */
+    border-color: #1A2E45; /* Hover effect on border */
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Hover shadow */
 }
 

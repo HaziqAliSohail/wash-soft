@@ -16,8 +16,11 @@ const Portfolio = () => {
     const portfolioImages = [
         '/portfolio1.jpeg',
         '/portfolio2.jpeg',
-        '/portfolio1.jpeg',
-        '/portfolio2.jpeg',
+        '/portfolio3.jpg',
+        '/portfolio4.jpg',
+        '/portfolio5.jpg',
+        '/portfolio6.jpg',
+
     ];
 
     return (

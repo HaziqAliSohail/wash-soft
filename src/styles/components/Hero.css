@@ -69,8 +69,8 @@
 }
 
 .hero .cta-btn {
-    background-color: #FFD700;
-    color: #00487C;
+    background-color:  rgba(26, 46, 69, 0.8);
+    color: #f9f9f9;
     padding: 15px 30px;
     text-transform: uppercase;
     text-decoration: none;
@@ -79,7 +79,7 @@
 }
 
 .hero .cta-btn:hover {
-    background-color: #FFC300;
+    background-color: rgba(26, 46, 69, 1);
 }
 
 /* Keyframes for sliding the videos */
